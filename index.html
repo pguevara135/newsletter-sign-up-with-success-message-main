@@ -7,40 +7,46 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
+  <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center;display: none;}
     .attribution a { color: hsl(228, 45%, 44%); }
+
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="top">
+      
+    </div>
+      <div class="botton">
+        <h1 class="tittle">Stay updated!</h1>
+        <p class="text">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul>
+          <li><img src="assets/images/icon-list.svg" alt="icon">Product discovery and building what matters</li>
+          <li><img src="assets/images/icon-list.svg" alt="icon">Measuring to ensure updates are a success</li>
+          <li><img src="assets/images/icon-list.svg" alt="icon">And much more!</li>
+        </ul>
+        <form action="#" class="form">
+          <label for="email">Email address</label>
+          <input type="email" name="email" id="email" placeholder="email@company.com"></form>
+          <button type="submit">Subscribe to monthly newsletter</button>
+      </div>
+      
+    
+  </div>
 
-  <!-- Sign-up form start -->
-
-  Stay updated!
-
-  Join 60,000+ product managers receiving monthly updates on:
-
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
-
-  Email address
-  email@company.com
-
-  Subscribe to monthly newsletter
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
+  <div class="error">
+    Thanks for subscribing!
 
   A confirmation email has been sent to ash@loremcompany.com. 
   Please open it and click the button inside to confirm your subscription.
 
   Dismiss message
+  </div>
 
   <!-- Success message end -->
   
