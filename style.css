@@ -19,14 +19,13 @@ body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    list-style: none;
 }
 
 .container {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 37% 1fr;
+    grid-template-rows: 32% 1fr;
 }
 
 
@@ -34,8 +33,69 @@ body {
     width: 100%;
     background-image: url('assets/images/illustration-sign-up-mobile.svg');
     background-repeat: no-repeat;
+    border-radius: 0 0 20px 20px;
 }
 
 .error {
     display: none;
+}
+
+.botton {
+    padding: 1.3rem 2rem;
+    color: var(--Charcoal-Grey);
+    font-weight: 700;
+    opacity: .8;
+}
+
+.tittle {
+    color: var(--dark-Slate-Grey);
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.text {
+    padding: 1.3rem 0;
+}
+
+table td {
+    padding-bottom: 1rem;
+}
+table td:nth-child(1) {
+    padding-top: .2em;
+    vertical-align: top;
+}
+
+table td:nth-child(2) {
+    padding-left: 1rem;
+    line-height: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: .5rem;
+    color: var(--dark-Slate-Grey);
+}
+
+input {
+    padding: 1rem;
+    border: 1px solid var(--Grey) ;
+    border-radius: 8px;
+}
+
+.button {
+    width: 100%;
+    color: var(--White);
+    background-color: var(--dark-Slate-Grey);
+    padding: 1.5rem;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1.5rem;
 }
